@@ -1,0 +1,23 @@
+.page-404-container{
+    margin-top: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.message-box{
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+.not-found-alert{
+    background-color: white;
+    color: red;
+    font-size: 160px;
+}
+.not-found-code{
+    font: bolder 85px poppins;
+}
+.not-found-message{
+    font: bold 25px poppins;
+}
+

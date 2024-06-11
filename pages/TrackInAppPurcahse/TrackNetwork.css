@@ -1,0 +1,76 @@
+.date-inputs-container{
+ display: inline-block;
+ align-items: center;
+ margin: 0 0 7px 0;
+}
+.di-form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+}
+.date-inputs-container label{
+    padding: 0 8px 0 1rem;
+    font-size: 16px;
+    font-weight: bold;
+}
+.date-inputs-container input{
+    height:23px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 1px solid black;  
+    font-family:  'Gill Sans MT';
+    font-weight: bold;
+    padding: 3px;
+}
+.date-inputs-container button{
+    margin:0 0 0 2rem;
+    font-size: 18px;
+    background-color: #3f6eae;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 6px;
+    cursor: pointer;
+}
+.date-inputs-container button:active{  
+    background-color: #214679;   
+}
+
+
+/* for fmtc */
+.time-inputs-container{
+    display: inline-block;
+    align-items: center;
+    margin: 0 0 7px 0;
+}
+.time-inputs-container label{
+    padding: 0 8px 0 1rem;
+    font-size: 16px;
+    font-weight: bold;
+}
+.time-inputs-container input{
+    width: 65px;
+    height:23px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 1px solid black;  
+}
+.time-inputs-container select{
+    margin: 0 0 0 2rem;
+    height:30px;
+    border-radius: 3px;
+}
+.time-inputs-container button{
+    margin:0 0 0 2rem;
+    font-size: 18px;
+    background-color: #3f6eae;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 6px;
+    cursor: pointer;
+}
+.time-inputs-container button:active{  
+    background-color: #214679;   
+}

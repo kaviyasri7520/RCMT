@@ -1,0 +1,147 @@
+.mi-status-modify{
+    font-family: sans-serif;
+    font-size: 16px;
+    border-radius: 4px; 
+    height: 35px;
+    min-width: 160px !important;
+    max-width:160px !important;
+    }
+.subheader-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.subheader-div label {
+    padding-right:6px ;
+}
+.mail-tag-select{
+    float:left;
+    font-family: sans-serif;
+    font-size: 16px;
+    border-radius: 4px; 
+    height: 35px;
+    min-width: 160px !important;
+    max-width:160px !important;
+    margin-right: 3rem;
+    border: 2px solid rgb(121, 117, 117);
+    
+}
+.option-select-label{
+    margin-left: 8rem;
+}
+.option-select{
+    font-family: sans-serif;
+    font-size: 16px;
+    border-radius: 4px; 
+    height: 35px;
+    min-width: 160px !important;
+    max-width:160px !important;
+    border: 2px solid rgb(121, 117, 117);
+}
+.mail-date-input{
+    font-family: sans-serif;
+    font-size: 16px;
+    border-radius: 4px; 
+    height: 30px;
+    min-width: 50px !important;
+    max-width:50px !important;
+    margin-right: 3rem;
+    text-align: center;
+    border: 2px solid rgb(121, 117, 117);
+    /* padding: 0px 15px 0px 15px; */
+}
+.search-button{
+    position: absolute;
+    transform: translate(720%,0%);
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 17px;
+    height: 35px;
+    width: 90px;
+    border: none;
+    background-color: #007bff;
+    transition: color .50s;
+}
+.search-button:active{
+    position: absolute;
+    transform: translate(738%,0%);
+    font-size: 17px;
+    color: black;
+    height: 33px;
+    width: 88px;
+   
+}
+.search-icon{
+    height: 20px;
+    width: 20px;
+    padding-left: 5px;
+}
+.filter-input-box{
+    margin-left: 12rem;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    text-align: center;
+    background: white; 
+    align-items: center;      
+}
+.filter-input-box label{
+    font-size: 13px;
+    font-family: poppins;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.expanded-subject-head{
+    max-width: max-content;
+    color:white;
+    font-size:16px;
+    font-weight: 300;
+    background-color:#13243b;
+    min-height: 52px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.expanded-subject{
+    background-color:white;
+    color: white;
+    max-width: fit-content;
+    height: 30px;
+    font-size: 16px;
+    color: #13243b;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.mail-tag-correction-btn{
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #40b93a;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+}
+.mail-tag-correction-btn:hover{
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #107e47;
+    width: 57px;
+    height: 28px;
+    cursor: pointer;
+}
+.mail-tag-correction-btn-disabled{
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #607e60;
+    width: 60px;
+    height: 30px;
+    cursor: not-allowed !important;
+}

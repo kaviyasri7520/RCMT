@@ -1,0 +1,127 @@
+.mail-container{
+    display: flex;
+    flex-direction: row;
+    margin: 3rem 4rem;
+  
+  }
+  
+  .mail-form{
+      width: fit-content;
+      height: fit-content;
+     
+  }
+  .mailform-fieldset{
+      background-color: #d1d3d396;
+      border-radius: 7px;
+      width: 100%;
+      border: 1px solid #9b9191;
+      display: flex;
+      flex-direction: column;
+  }
+  .mail-input{
+      border: 1px solid black;
+      height: 35px;
+      border-radius: 5px;
+      margin-bottom: 25px;
+      
+  }
+  .mailform-fieldset textarea{
+      border-radius: 5px;
+      resize: none;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      margin-bottom: 25px;
+  }
+  .send-button{
+      color: white;
+      background-color: #369f47;
+      border: none;
+      font-size: 20px;
+      border-radius: 2px;
+      cursor: pointer;
+      height: 40px;
+      width: 130px;
+      margin-left: 38%; 
+      border-radius: 5px; 
+  }
+  .send-button:active{
+      background-color: #267e35;
+  }
+  .campaign-button{
+      color: white;
+      background-color: #3d3d3d;
+      border: none;
+      font-size: 16px;
+      border-radius: 2px;
+      cursor: pointer;
+      height: 50px;
+      width: 130px;
+      border-radius: 5px; 
+  
+  }
+  .campaign-button:active{
+      background-color: #1a1a1a;
+  }
+  .campaign-cancel-button{
+      color: white;
+      background-color: rgb(248, 17, 17);
+      border: none;
+      font-size: 20px;
+      border-radius: 2px;
+      cursor: pointer;
+      height: 40px;
+      width: 100px;
+      border-radius: 5px; 
+      
+  }
+  .campaign-cancel-button:active{
+      background-color: rgb(138, 2, 2);
+  }
+  .template-board{
+      margin-left: 120px;
+      height: fit-content;
+      border: 1px solid rgba(0, 0, 0, 0.37);
+      background-color: #4d524d7a;
+      width: 350px;
+     overflow: auto;
+     overflow-x: hidden;
+      float: flex-end;
+       border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;
+  }
+  span.a{
+      display: flex;
+      flex-direction: row;
+      padding: 5px;
+  }
+  .body-container{
+      height:auto;
+      /* border: 1px solid black; */
+      /* border-radius: 7px; */
+     margin: 5% 10% 5% 10%;
+     font-family: tahoma;
+     font-size: 14px;
+     font-weight: bold;
+     text-align: justify;
+     cursor: pointer;
+     padding: 1rem;
+     user-select: none;
+     transition: background-color 0.6s;
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px ;
+     border-top-left-radius: 20px ;
+     border-top-right-radius: -20px !important;
+     width: 250px;
+     
+  }
+  .body-container:hover{
+    background: rgb(153, 156, 161) !important;
+    /* color: white; */
+    
+}
+.body-container:active{
+      height:auto;
+     margin: 5% 10% 5% 10%;
+     text-align: justify;
+     background-color: rgb(112, 114, 119) !important;
+  }  

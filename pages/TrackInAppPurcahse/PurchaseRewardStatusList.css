@@ -1,0 +1,11 @@
+.reward-Reject-btn{
+    background-color: red;
+    color: white;
+    font-family: poppins;
+    cursor:pointer;
+    padding:5px 10px;
+    border:0px solid white;
+}
+.reward-Reject-btn:hover{
+    background-color: rgb(185, 6, 6); 
+}

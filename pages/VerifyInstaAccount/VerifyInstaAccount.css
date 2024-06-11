@@ -1,0 +1,24 @@
+.action-container{
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    padding: .3rem;
+}
+.reject-input{
+    height:30px;
+    width:80%;
+    margin: 4px auto;
+    border-radius: 5px;
+    border:1px solid #3f6eae;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+.reject-input:focus{
+    outline: 1px solid #3f6eae;
+}
+.VIA-button-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}

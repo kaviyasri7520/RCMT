@@ -1,0 +1,106 @@
+.page-container{
+    width: 100%;
+    /* overflow-y: scroll !important; */
+}
+
+form{
+    display: flex;
+    gap: 8px;
+    height: 80px;
+}
+form td:last-child{
+    display: flex;
+    justify-content: space-evenly;
+}
+form *{
+    font-size: 20px;
+}
+.openModalBtn{
+    background-color: transparent;
+    color:rgb(8, 0, 0);
+    height: 30px;
+   border: 1px solid grey;
+    border-radius: 0.9rem;
+    /* padding:0.7rem,0.8rem; */
+    width: 100px;
+    cursor:pointer;
+    background-image: linear-gradient(16deg, rgb(12, 145, 94) 50%,transparent 50%);
+    background-size: 300%;
+    background-position: 100%;
+    transition: all 0.7s ease-out;
+/* box-shadow: 1px 1px 1px 1px rgb(163, 205, 245); */
+
+}
+.openModalBtn:hover{
+    background-position: 0%;
+    color:whitesmoke
+}
+
+.plus{
+    width:30px;
+    margin-top: 5PX;
+}
+/* 
+
+
+
+*/
+
+
+.expand{
+    border: 1px dotted goldenrod;
+}
+.right{
+    border-right: 2px dotted goldenrod;
+}
+
+.payment-status-container {
+    
+    margin: 0 auto;
+  
+  }
+  
+  .payment-form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .payment-form label {
+    margin-right: 10px;
+  }
+  
+  .fetch-button {
+   height: 40px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .fetch-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .payment-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .payment-table th, .payment-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .payment-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+
+

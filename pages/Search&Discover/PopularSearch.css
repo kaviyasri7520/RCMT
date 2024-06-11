@@ -1,0 +1,155 @@
+/* src/PopularSearches.css */
+
+h1{
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+li {
+  
+  float: left;
+  display: block;
+  padding: 5px;
+  margin: 5px;
+}
+#listitems {
+      margin-right: 20px;
+      border: 1px;
+      color: rgb(231, 227, 227); ;
+      border-color: rgb(231, 227, 227);
+      border-style: solid;
+      border-radius: 50px;
+      padding:10px;
+      background-color:#6f8fe7;
+    
+  }
+
+  .form-item {
+
+      display: flex;
+      padding-left: 450px;
+      align-items: center;
+      gap: 10px; /* Adjust the gap between the elements as needed */
+      margin-bottom: 20px; 
+      position: relative;
+      /* padding-top: 5px; */
+  }
+    .form-item input{
+      display: block;
+      width: 250px;
+      height: 40px;
+      background: transparent;
+      border: solid 1px #ccc;
+      border-radius: 50px;
+      transition: all .3s ease;
+      padding: 0 15px
+    }
+    .form-item input:focus{
+      border-color: blue;
+    
+    }
+    .form-item button{
+ border-color: #e9ecef;
+    }
+    .form-item label{
+      position: absolute; 
+      cursor: text;
+      z-index: 2;
+      top: 13px;
+      left: 10px;
+      font-size: 200px;
+      font-weight: bold;
+      /* background: #fff;  enter popular keyword*/
+      padding: 0 10px;
+      color: #999;
+      transition: all .3s ease;
+   
+    }
+    .form-item input:focus + label,
+    .form-item input:valid + label{
+      font-size: 15px;
+      padding-left: 450px;
+      top: -5px
+    }
+    .form-item input:focus + label{
+      color: #6f8fe7;
+    }
+
+
+
+
+#showlist li:hover {
+  background-color:#9bb3f3;
+}
+
+
+
+/* button */
+.button {
+  border-radius: 4px;
+  background-color: #6f8fe7;
+  border: none;
+  border-radius: 25px;
+  color: #d2d4f0;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+/* popup */
+/* PopularSearch.css */
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background: rgb(249, 249, 253);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.popup button {
+  margin: 10px;
+}
+

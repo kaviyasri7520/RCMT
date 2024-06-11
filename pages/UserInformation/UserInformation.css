@@ -1,0 +1,109 @@
+.user-information-container h1 {
+  font-family: 'Poppins', sans-serif;
+  margin:  12% auto;
+  text-align: center;
+}
+.user-information-card{
+  font-family: 'Poppins', sans-serif;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #e9e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(104, 101, 101);
+}
+
+.title {
+  font-size: 20px;
+  color: #592da9;
+  background-color: white;
+  text-align: center;
+  margin: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: .7rem;
+}
+
+.submit-button {
+  font-size: 15px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  border-radius: 5px;
+  font-family: sans-serif;
+  height: 35px;
+  width: fit-content;
+  border: none;
+  background-color: #007bff;
+  transition: color .30s;
+  font-family: poppins;
+  user-select: none;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+.submit-button:active{
+  color:#007bff;
+  background-color: white;
+  outline: 2px solid #007bff;
+}
+.submit-button:disabled{
+opacity: 0.5;
+pointer-events: none;
+}
+.clear-icon{
+border: 2px solid #cccccc;
+height: 23px;
+width: 23px;
+padding: 5px;
+border-radius: 5px;
+margin-right: 3rem;
+cursor: pointer;
+}
+.clear-icon:active{
+background-color: #007bff;
+color: white;
+}
+.user-search-form{
+  width: 100%;
+  align-items: center;
+  text-align: justify;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin: 2rem auto 2rem auto;
+}
+.syenapp-id-select{
+  width: 45%;
+  margin-right: .5rem;
+  
+}
+.user-information-table{
+width: fit-content;
+margin: auto;
+/* border: 1px solid black; */
+}
+.user-information-row td{
+min-width: fit-content;
+max-width: 15rem;
+text-align: left;
+justify-content: center;
+letter-spacing: .7px;
+word-wrap: break-word;
+font-size: 14px;
+}
+/* .user-information-row td{
+
+} */
+.user-information-row label{
+float:right;
+margin: .7rem 2rem .7rem  auto;
+font-weight: bold;
+font-size: inherit;
+}
+

@@ -1,0 +1,155 @@
+.InAppPurchase-tablerow-head {
+    border: none;
+    outline: .5px solid transparent;
+    border-radius: 5px;
+    border-top: 0px;
+    background-color: #0e60bd;
+    color: white;
+    height: 40px; 
+}
+.InAppPurchase-tablerow th{
+    width: 14rem;
+    height: 45px;
+    font-size: 15px;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px
+}
+.InAppPurchase-tablerow-data {
+    border-bottom: .5px solid rgb(95, 93, 93);
+    outline: .5px solid transparent;
+    border-radius: 7px;
+    height: 32px;  
+    table-layout: fixed;
+}
+
+.InAppPurchase-tablerow-data td{
+    min-width: 300px;
+    max-width: 300px;
+    word-wrap:break-word;
+    padding: 7px;
+    background-color: white;
+    font-size: 14px;
+    border: 2px solid rgb(123, 113, 113);
+    border-radius: 3px;
+}
+
+.purchase-info-header{
+    padding-left: 10px;
+    text-align: center;
+    background-color: rgb(212, 205, 205);
+    height: fit-content;
+    width: 95%;
+    margin: auto;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+.purchase-info-row{
+    display: flex;
+    flex-direction: row;
+    margin: .6rem 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.purchase-info-cells{
+    margin: .6rem .7rem;
+}
+.purchase-info-cells input{
+ 
+    width: 8rem;
+    height: 1.3rem;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.total-points-view{
+    border: 0px solid black !important;
+    background: none;
+}
+.track-purchase-submit{
+    font-size: 15px;
+    height: 32px;
+    width: 75px;
+    border: none;
+    background-color: #149454;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.track-purchase-submit:active{
+    font-size: 15px;
+    border: none;
+    background-color: #107e47;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.action-btns{
+    display: flex;
+    flex-direction: row;
+}
+.view-address-btn{
+    font-family: poppins;
+    color:white;
+    border:0px solid white;
+    background:#0e60bd;
+    height:30px;
+    cursor:pointer;
+    padding:5px 10px;
+}
+.view-address-btn:hover{
+    background:#0c519f;
+}
+.view-mail-btn{
+    font-family: poppins;
+    color: white;
+    border: 0px solid white;
+    background-color: red; 
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+}
+.view-mail-btn:hover{
+    background-color: rgb(185, 6, 6); 
+}
+.view-mail-btn:disabled{
+    cursor: not-allowed;
+}
+.mail-icon{
+    font-size: 16px;
+    margin-left: .5rem;
+    color:inherit
+}
+.track-urls-table{
+    height: 65vh;
+    overflow-x: scroll ;
+    overflow-y: scroll ;
+    margin: 0px .5rem 0px .5rem;
+}
+.track-urls-table::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+  
+  /* Track */
+.track-urls-table::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+  
+  /* Handle */
+.track-urls-table::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 12px;
+    background: #0e60bde3; 
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.5); 
+}
+.mail-view-block{
+    height: 90vh;
+    overflow-x: scroll;
+}

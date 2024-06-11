@@ -1,0 +1,122 @@
+.confirm{
+    margin-right: 20px;
+    border-style: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top:20px;
+    
+}
+
+.cancel{
+    margin-left: 20px;
+    background-color:#0e60bd;
+    cursor: pointer;
+    border-style: none;
+    color: white;
+    width: 115px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top:20px;
+}
+.confirm:hover{
+    margin-right: 20px;
+    border:1px solid grey;
+    background-color: white;
+   cursor: pointer;
+    color: black;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top:20px;
+}
+.title{
+    margin-top: 10%;
+}
+
+.tdata{
+    height: 30px;
+    font-size: 14px;
+    color: rgb(11, 12, 12);
+    text-align: center;
+}
+.tdatas{
+    font-family: sans-serif;
+    height: 30px;
+    font-weight: 500;
+    font-size: 13px;
+    color: rgb(11, 12, 12);
+    text-align: center;
+}
+.thead{
+    color:white;
+    font-size:13px;
+    font-weight: 300;
+    background-color:#3F6EAE;
+    min-height: 52px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.find-referral-sub-div{ 
+    height: fit-content;
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;   */
+    width: fit-content;
+    float: left !important;
+}
+.referred-id-label{
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.referred-id-input{
+    margin: 0;
+    border-radius: 5px;
+    height:30px;
+    width: 180px;
+    border: 1px solid rgb(70, 69, 69);
+}
+.syenapp-id-go-btn{
+    background-color: #40b93a;
+    border: 1px solid #45a048;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    border: none;
+    height: 30px;
+    border-radius: 4px;
+    margin: 0 3rem 0 1rem;
+    cursor: pointer;
+    padding: 5px;
+}
+.syenapp-id-go-btn:active{
+    background-color: #3a923d;
+}
+.referral-subheader{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+.refresh-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    width: 2300px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .refresh-icon-svg {
+    color: rgb(105, 97, 219);
+    font-size: 20px;
+  }
+  
+

@@ -1,0 +1,15 @@
+.missing-rewards-extended-table{
+    width: fit-content;
+}
+.merchant-select{
+    width: 82%;
+    margin: 4px auto;
+    text-align: left;
+    font-size: 14px;
+}
+.merchant-select-label{
+    width: 82%;
+    margin: 1px auto;
+    text-align: left;
+    font:bold 12px poppins;
+}

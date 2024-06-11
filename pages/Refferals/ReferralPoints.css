@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  /* margin-left: 750px; */
+}
+  
+.head {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.refcode {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.input {
+  width: 60px;
+  height: 20px;
+  font-size: 16px;
+  margin-left: 20px;
+  border: 1.5px solid;
+  text-align: center;
+}
+
+.input-id {
+  width: 300px;
+  height: 20px;
+  margin-left: 20px;
+  border: 1.5px solid;
+}
+
+.submit-button {
+  margin-left: 30px;
+}
+
+.results-header {
+  display: flex;
+  margin-bottom: 30px;
+  /* margin-left: 500px; */
+  font-weight: bold;
+}
+
+.results{
+  margin-left: 30px;
+}
+
+/* .sub-results {
+  margin-left: 550px;
+} */
+
+.sub-results .output-row, .referral-row{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Adjust the spacing as needed */
+}
+
+.sub-results label {
+  display: block;
+  margin-bottom: 10px; /* Adjust the spacing as needed */
+  flex : 1;
+}
+
+.output-row .input {
+  margin-right: 1000px;
+}
+
+.referral-row {
+  margin-left: 50px;
+}
+
+.referral-row {
+  margin-right: 1000px;
+}
+
+.other-row {
+  display: flex;
+}
+
+.other-row .input {
+  margin-right: 1000px;
+}
+
+.results-footer {
+  display: flex;
+  margin-top: 30px;
+  /* margin-left: 450px; */
+  font-weight: bold;
+  text-align: center;
+}
